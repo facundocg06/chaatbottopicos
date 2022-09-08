@@ -58,7 +58,7 @@ function process_event(event){
     if(message.text){
         // Crear un payload para un simple mensaje de texto
         var response = {
-            "text": 'Enviaste este mensaje: ' + message.text
+            "text": 'hola en que puedo ayudarle? ' 
         }
     }
     
