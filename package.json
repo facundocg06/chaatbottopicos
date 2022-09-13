@@ -1,21 +1,24 @@
-
 {
-    "name": "cmaquera-chatbot",
-    "version": "1.0.0",
-    "description": "Un bot integrado a Facebook Messenger usando node.js y Heroku",
-    "main": "app.js",
-    "engines": {
-        "node": "18.x"
-      },
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node app.js"
-    },
-    "author": "Cesar Maquera",
-    "license": "ISC",
-    "dependencies": {
-      "body-parser": "^1.18.2",
-      "express": "^4.16.2",
-      "request": "^2.83.0"
-    }
+  "name": "fbbotpruebas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js -e *",
+    "seed": "node seeder/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5",
+    "node-telegram-bot-api": "^0.50.0",
+    "request": "^2.88.2",
+    "uuid": "^8.3.0"
   }
+}
