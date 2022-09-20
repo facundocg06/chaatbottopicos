@@ -1,5 +1,5 @@
 {
-  "name": "jimenezbots",
+  "name": "fbbotchat",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon server.js -e *",
     "seed": "node seeder/index.js"
   },
-  "author": "",
+  "author": "facundo",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
